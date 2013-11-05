@@ -3,12 +3,18 @@
         {
             "name": "Videos",
             "description": "This is a simple API specification for a listing of videos.",
-            "url": "https://github.com/ongithub/videos/blob/gh-pages/videos",
-            "type": "swagger",
             "image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-video.png",
-            "keywords": "movies, videos"
+            "keywords": "movies, videos",
+            "license": "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US",
+            "attribution": "Kin Lane",
+            "definitions": [
+                {
+                    "type": "swagger",
+                    "url": "https://github.com/ongithub/videos/blob/gh-pages/videos"
+                }
+            ]
         }
     ],
-    "location": "api-commons-manifest",    
-    "updated": "11/03/2013"
+    "tags": "api-commons-manifest",    
+    "updated": "11/04/2013"
 }
